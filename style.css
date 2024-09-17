@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Exo 2", sans-serif;
+}
+
+body {
+  background: linear-gradient(to top left, #ccccff 0%, #ccffcc 100%);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.Header {
+  text-align: center;
+}
+
+h1 {
+  width: 100vw;
+  font-size: 5vw;
+  margin-top: 9rem;
+  font-weight: 800;
+  align-items: center;
+  color: #561466;
+}
+
+button {
+  padding: 1.5rem 2rem;
+  font-family: "Jost", sans-serif;
+  align-items: center;
+  color: black;
+  background: linear-gradient(to top left, #e69bc2 0%, #ccffcc 100%);
+  border: 2px solid rgb(48, 131, 48);
+  border-radius: 18px;
+  margin-top: 3rem;
+  font-weight: 800;
+  font-size: 4rem;
+}
+
+
+button:hover {
+  background-color: #166116;
+  font-size: 3rem;
+  transition: 1s;
+font-weight: 400;
+}
+
+p {
+  color: rgb(165, 42, 159);
+  margin: 2vw 2vw;
+  font-family: "Jost", sans-serif;
+  font-size: 4vw;
+  font-weight: 600;
+
+
+}
+
+
+
+/*=====================================================MEDIA QUERY============================================================= */
+
+
+@media (max-width: 1024px) {
+  h1 {
+    width: 100vw;
+    font-size: 4vw;
+    margin-top: 8rem;
+
+  }
+
+  
+  button {
+    padding: 1rem 1.6rem;
+    align-items: center;
+    border-radius: 18px;
+    margin-top: 3vw;
+    font-weight: 500;
+    font-size: 1.5vw;
+    margin: auto;
+  }
+
+  
+button:hover {
+  background-color: #166116;
+  font-size: 1rem;
+  transition: 1s;
+}
+
+}
+
+@media (max-width: 1025px) {
+  h1 {
+    width: 100vw;
+    font-size: 4vw;
+    margin-top: 8rem;
+    margin-bottom: 2rem;
+
+
+  }
+
+  
+  button {
+    padding: 1rem 1.6rem;
+    align-items: center;
+    border-radius: 18px;
+    margin-top: 3rem;
+    font-weight: 500;
+    font-size: 1.5vw;
+    margin: auto;
+  }
+
+    
+button:hover {
+  background-color: #166116;
+  font-size: 1rem;
+  transition: 1s;
+}
+  
+}
+
+
+
+@media (max-width: 768px) {
+
+  h1 {
+    width: 100vw;
+    font-size: 4vw;
+    margin-top: 7rem;
+    margin-bottom: 2rem;
+
+
+  }
+
+  
+  button {
+    padding: 0.8rem 1.3rem;
+    align-items: center;
+    border-radius: 18px;
+    margin-top: 2rem;
+    font-weight: 400;
+    font-size: 1.4rem;
+    margin: auto;
+  }
+    
+button:hover {
+  background-color: #166116;
+  font-size: 1rem;
+  transition: 1s;
+}
+  }
+@media (max-width:600px) {
+
+  h1 {
+    width: 100vw;
+    font-size: 4vw;
+    margin-top: 7rem;
+    margin-bottom: 2rem;
+
+  }
+
+  
+  button {
+    padding: 0.6rem 1.2rem;
+    align-items: center;
+    border-radius: 14px;
+    margin-top: 1.7rem;
+    font-weight: 400;
+    font-size: 1.1rem;
+    margin: auto;
+  }
+    
+button:hover {
+  background-color: #166116;
+  font-size: 1rem;
+  transition: 1s;
+}
+
+}
+
+
+
+@media (min-width: 480px) {
+  h1 {
+    width: 100vw;
+    font-size: 6vw;
+    margin-top: 7rem;
+    margin-bottom: 2rem;
+
+  }
+
+  
+  button {
+    padding: 0.6rem 1.2rem;
+    align-items: center;
+    border-radius: 14px;
+    margin-top: 1.7rem;
+    font-weight: 400;
+    font-size: 1.1rem;
+    margin: auto;
+
+  }
+
+  button:hover {
+    background-color: #166116;
+    font-size: 1rem;
+    transition: 1s;
+  } 
+}
